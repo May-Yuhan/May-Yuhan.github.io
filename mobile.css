@@ -1,0 +1,194 @@
+/*Ik heb de Digital Color Meter gebruikt die op mijn MacBook staat voor het kiezen van de kleuren.*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3 {
+    display: inline;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: whitesmoke;
+}
+
+@media all and (max-width: 575.98px) {
+
+    .topnav a {
+        border-bottom: 2px solid white;
+    }
+
+}
+
+div#titel {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+    background-color: white;
+}
+
+h1#blackh1 {
+    color: black;
+}
+
+div#hoofdgedachte {
+    font-weight: normal;
+    color: darkgray;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 70px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 16px;
+    color: white;
+    -webkit-transition: color 8s;
+    -moz-transition: color 8s;
+    -ms-transition: color 8s;
+    -o-transition: color 8s;
+    transition: color 1s;
+}
+
+.topnav a:hover {
+    color: red;
+}
+
+
+.topnav .icon {
+    display: none;
+}
+
+
+@media screen and (max-width: 575.98px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+article {
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+h1, p {
+    color: rgb(175, 175, 175);
+}
+
+h1#lente {
+    font-weight: normal;
+    color: rgb(110, 110, 110);
+}
+
+h1#kijken {
+    font-weight: normal;
+    color: rgb(110, 110, 110);
+}
+
+h1#backpacking {
+    font-weight: normal;
+    color: rgb(110, 110, 110);
+}
+
+h1#wildcamperen {
+    font-weight: normal;
+    color: rgb(110, 110, 110);
+}
+
+
+.button1 {
+    background-color: rgb(225, 69, 73);
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button2 {
+    background-color: rgb(225, 69, 73);
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button3 {
+    background-color: rgb(225, 69, 73);
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button4 {
+    background-color: rgb(225, 69, 73);
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
