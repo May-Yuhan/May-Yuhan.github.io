@@ -1,0 +1,292 @@
+/*LENTEBERICHT.HTML CSS*/
+
+h3#lenteberichten{
+    color:#DE474D;
+}
+
+h1#lente_lentebericht{
+    color:black;
+}
+
+html{
+    margin: 0;
+    padding: 0px 0px 50px 0px; background-color:white;
+}
+
+body{
+    margin: 0;
+    padding: 0px 0px 7px 0px;
+}
+
+h1, h3 {
+    display: inline;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: whitesmoke;
+}
+
+@media all and (max-width: 575.98px) {
+
+    .topnav a {
+        border-bottom: 2px solid white;
+    }
+}
+
+
+a.icon{
+    border-bottom: none;
+}
+
+
+div#titel {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+    background-color: white;
+}
+
+h1#blackh1 {
+    color: black;
+}
+
+div#hoofdgedachte {
+    font-weight: normal;
+    color: darkgray;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 70px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 16px;
+    color: white;
+    -webkit-transition: color 8s;
+    -moz-transition: color 8s;
+    -ms-transition: color 8s;
+    -o-transition: color 8s;
+    transition: color 1s;
+}
+
+.topnav a:hover {
+    color: #DE474D;
+}
+
+
+.topnav .icon {
+    display: none;
+}
+
+
+@media screen and (max-width: 575.98px) {
+    .topnav a {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+article {
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+article#noosspace{
+    margin-top: 0px;
+}
+
+h1, p, h6 {
+    color: rgb(175, 175, 175);
+}
+
+
+
+h6{
+    text-align: center;
+    font-weight: normal;
+    margin: 10px 0px 0px 0px;
+    font-size: medium;
+}
+
+
+
+p{
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+
+h1#lente {
+    font-weight: normal;
+    color: rgb(110, 110, 110);
+    font-size: xx-large;
+}
+
+h1#kijken {
+    font-weight: normal;
+    color: rgb(110, 110, 110);
+    font-size: xx-large;
+}
+
+h1#backpacking {
+    font-weight: normal;
+    color: rgb(110, 110, 110);
+    font-size: xx-large;
+}
+
+h1#wildcamperen {
+    font-weight: normal;
+    color: rgb(110, 110, 110);
+    font-size: xx-large;
+}
+
+ul#footer_ul{
+    color: yellow;
+}
+
+.button1 {
+    background-color: rgb(225, 69, 73);
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border: 2px solid #DE474D;
+
+}
+
+
+
+h3{
+    color: rgb(110, 110, 110);
+    padding-bottom: 10px;
+
+
+
+}
+
+ul#footer_ul{
+    background-color: white;
+    list-style-type: none;
+    padding:0px 10px 0px 10px;
+    margin: 30px 0px 0px 0px;
+    line-height:40px;
+
+}
+
+li{
+    border-bottom: 1px solid #AFAFAF;
+}
+li a{
+    text-decoration: none;
+    color:#AFAFAF;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.5s;
+}
+li a:hover{
+    text-decoration: none;
+    color:#DE474D;
+}
+
+li#tisheader{
+    margin: 0;
+    position: relative;
+    border-top: 1px solid #AFAFAF;
+
+}
+li#tisheader:before{
+    position: absolute;
+    background: #DE474D;
+    height: 2px;
+    content: '';
+    width: 200px;
+    top: -2px;
+    left: 0;
+}
+
+li#footnieuws{
+    margin: 0;
+    position: relative;
+    border-top: 1px solid #AFAFAF;
+}
+
+li#footnieuws:before{
+    position: absolute;
+    background: #DE474D;
+    height: 2px;
+    content: '';
+    width: 215px;
+    top: -2px;
+    left: 0;
+}
+
+ul#footer_ul2{
+    background-color: white;
+    list-style-type: none;
+    padding:10px 10px 40px 10px;
+    margin: 0px 0px 0px 0px;
+    line-height:40px;
+}
+
+button {
+    background-color: rgb(225, 69, 73);
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border: 2px solid #DE474D;
+    margin-top: 10px;
+}
+button:hover{
+    color:rgb(222,71,77);
+    background-color: white;
+    border: 2px solid #DE474D;
+}
+

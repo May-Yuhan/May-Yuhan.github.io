@@ -1,8 +1,13 @@
 /*Ik heb de Digital Color Meter gebruikt die op mijn MacBook staat voor het kiezen van de kleuren.*/
-
-html, body {
+/*INDEX.HTML CSS*/
+html{
     margin: 0;
-    padding: 0;
+    padding: 0px 0px 50px 0px; background-color:white;
+}
+
+body{
+    margin: 0;
+    padding: 0px 0px 7px 0px;
 }
 
 h1, h3 {
@@ -19,8 +24,13 @@ body {
     .topnav a {
         border-bottom: 2px solid white;
     }
-
 }
+
+
+a.icon{
+    border-bottom: none;
+}
+
 
 div#titel {
     font-weight: bold;
@@ -62,7 +72,7 @@ div#hoofdgedachte {
 }
 
 .topnav a:hover {
-    color: red;
+    color: #DE474D;
 }
 
 
@@ -72,7 +82,7 @@ div#hoofdgedachte {
 
 
 @media screen and (max-width: 575.98px) {
-    .topnav a:not(:first-child) {
+    .topnav a {
         display: none;
     }
 
@@ -113,21 +123,25 @@ h1, p {
 h1#lente {
     font-weight: normal;
     color: rgb(110, 110, 110);
+    font-size: xx-large;
 }
 
 h1#kijken {
     font-weight: normal;
     color: rgb(110, 110, 110);
+    font-size: xx-large;
 }
 
 h1#backpacking {
     font-weight: normal;
     color: rgb(110, 110, 110);
+    font-size: xx-large;
 }
 
 h1#wildcamperen {
     font-weight: normal;
     color: rgb(110, 110, 110);
+    font-size: xx-large;
 }
 
 
@@ -144,6 +158,14 @@ h1#wildcamperen {
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+    border: 2px solid #DE474D;
+
+}
+.button1:hover{
+    color:rgb(222,71,77);
+    background-color: white;
+    border: 2px solid #DE474D;
+
 }
 
 .button2 {
@@ -159,6 +181,13 @@ h1#wildcamperen {
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+    border: 2px solid #DE474D;
+}
+.button2:hover{
+    color:rgb(222,71,77);
+    background-color: white;
+    border: 2px solid #DE474D;
+
 }
 
 .button3 {
@@ -174,6 +203,13 @@ h1#wildcamperen {
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+    border: 2px solid #DE474D;
+}
+.button3:hover{
+    color:rgb(222,71,77);
+    background-color: white;
+    border: 2px solid #DE474D;
+
 }
 
 .button4 {
@@ -189,6 +225,82 @@ h1#wildcamperen {
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+    border: 2px solid #DE474D;
+}
+.button4:hover{
+    color:rgb(222,71,77);
+    background-color: white;
+    border: 2px solid #DE474D;
 }
 
+h3{
+    color: rgb(110, 110, 110);
+    padding-bottom: 10px;
+
+
+
+}
+
+ul#footer_ul{
+    background-color: white;
+    list-style-type: none;
+    padding:0px 10px 0px 10px;
+    margin: 30px 0px 0px 0px;
+    line-height:40px;
+
+}
+
+li{
+    border-bottom: 1px solid #AFAFAF;
+}
+li a{
+    text-decoration: none;
+    color:#AFAFAF;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.5s;
+}
+li a:hover{
+    text-decoration: none;
+    color:#DE474D;
+}
+
+li#tisheader{
+    margin: 0;
+    position: relative;
+    border-top: 1px solid #AFAFAF;
+
+}
+li#tisheader:before{
+    position: absolute;
+    background: #DE474D;
+    height: 2px;
+    content: '';
+    width: 200px;
+    top: -2px;
+    left: 0;
+}
+
+li#footnieuws{
+    margin: 0;
+    position: relative;
+    border-top: 1px solid #AFAFAF;
+}
+
+li#footnieuws:before{
+    position: absolute;
+    background: #DE474D;
+    height: 2px;
+    content: '';
+    width: 215px;
+    top: -2px;
+    left: 0;
+}
+
+ul#footer_ul2{
+    background-color: white;
+    list-style-type: none;
+    padding:10px 10px 40px 10px;
+    margin: 0px 0px 0px 0px;
+    line-height:40px;
+}
 
